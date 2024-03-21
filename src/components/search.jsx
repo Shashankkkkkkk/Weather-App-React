@@ -2,8 +2,9 @@ import { useState } from "react";
 import { AsyncPaginate } from "react-select-async-paginate";
 import { geoApiOptions } from "./api";
 import { geoApiUrl } from "./api";
+import PropTypes from 'prop-types';
 
- const Search = (onSearchChange) => {
+ const Search = ({onSearchChange}) => {
   const [search, setSearch] = useState(null);
 
   const loadOptions = (inputValue) => {
@@ -41,3 +42,7 @@ import { geoApiUrl } from "./api";
 };
 
 export default Search;
+
+Search.propTypes = {
+  onSearchChange : PropTypes.func,
+};

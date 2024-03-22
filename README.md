@@ -1,2 +1,3 @@
 
-![ss1](https://github.com/Shashankkkkkkk/Weather-App-React/assets/79146129/be661c4b-3c69-498e-8973-4332a92a9280)
+
+![ss2](https://github.com/Shashankkkkkkk/Weather-App-React/assets/79146129/755e7996-c52a-4405-9b4b-7c6a0ac9392e)
